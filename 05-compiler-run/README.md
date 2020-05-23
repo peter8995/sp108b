@@ -1,4 +1,4 @@
-#for test
+# for test
 ```
 PS D:\codes\sp108b\05-compiler-run> ./compiler test/for.c -ir -run 
 =======irDump()==========
@@ -90,7 +90,7 @@ PS D:\codes\sp108b\05-compiler-run> ./compiler test/for.c -ir -run
 18: (L2) (18)
 ```
 
-#if test
+# if test
 ```
 PS D:\codes\sp108b\05-compiler-run> ./compiler test/if.c -ir -run  
 =======irDump()==========
@@ -123,7 +123,7 @@ PS D:\codes\sp108b\05-compiler-run> ./compiler test/if.c -ir -run
 13: (L2) (13)
 ```
 
-#got test
+# goto test
 ```
 PS D:\codes\sp108b\05-compiler-run> ./compiler test/goto.c -ir -run 
 =======irDump()==========
