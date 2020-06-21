@@ -1,5 +1,5 @@
 
-[理解http server是什麼](https://www.bilibili.com/video/BV1S7411R7kF?p=7)    
+[理解http server](https://www.bilibili.com/video/BV1S7411R7kF?p=7)    
 [研讀之http sever程式碼](https://gist.github.com/laobubu/d6d0e9beb934b60b2e552c2d03e1409e)
 
 [主要參考之書籍](http://beej-zhtw.netdpi.net/)
