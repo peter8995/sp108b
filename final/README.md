@@ -12,7 +12,7 @@
 [getaddrinfo](http://beej-zhtw.netdpi.net/05-system-call-or-bust/5-1-getaddrinfo-start)     
 [dub2](https://www.geeksforgeeks.org/dup-dup2-linux-system-call/)
 
-* 使用msys2實作
+# 使用msys2實作
 ```
 User@LAPTOP-D648SS44 MINGW64 /d/codes/sp108b/final
 $ make
