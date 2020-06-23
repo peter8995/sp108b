@@ -135,6 +135,7 @@ char *request_header(const char* name)
 }
 
 //client connection
+/*/r/n是封包裡頭換行的寫法*/
 void respond(int n)
 {
     int rcvd, fd, bytes_read;
@@ -174,8 +175,8 @@ void respond(int n)
             h->value = v;
             h++;
             fprintf(stderr, "[H] %s: %s\n", k, v);
-            t = v + 1 + strlen(v);
-            if (t[1] == '\r' && t[2] == '\n') break;
+            t = v + 1 + strlen(v);      //尋找結尾+2的位置
+            if (t[1] == '\r' && t[2] == '\n') break;       //若t指到\n，脫離迴圈
         }
         t++; // now the *t shall be the beginning of user payload
         t2 = request_header("Content-Length"); // and the related header if there is  
